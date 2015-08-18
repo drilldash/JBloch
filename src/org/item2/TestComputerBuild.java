@@ -7,7 +7,8 @@ public class TestComputerBuild {
                 .cpuName("AMD")
                 .gpuName("Radeon 7860")
                 .build();
-
+        //changes
         System.out.println(Comp.toString());
+        System.out.println(Comp.toStringV2());
     }
 }
